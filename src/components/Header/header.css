@@ -1,0 +1,77 @@
+.header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo img{
+    width: 30%;
+}
+.menu{
+    margin-bottom: 0 ;
+}
+
+.nav__item a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.nav__item a.active__link{
+    color: var(--secondary-color);
+}
+
+.mobile_menu{
+    font-size: 1.3rem;
+    color: var(--heading-color);
+    display: none;
+}
+.sticky__header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index: 999;
+}
+/* Login Button */
+.login__btn {
+    background-color: #007BFF; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login__btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Register Button */
+.register__btn {
+    background-color: #28a745; /* Green background */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register__btn:hover {
+    background-color: #218838; /* Darker green on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* Optional: Ensure Links Inside Buttons Inherit the Styles */
+.login__btn a, .register__btn a {
+    text-decoration: none;
+    color: inherit;
+}
